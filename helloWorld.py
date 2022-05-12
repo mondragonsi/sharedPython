@@ -1,1 +1,5 @@
 print("hello world")
+
+num1 = input("Enter num1:")
+num2 = input("Enter num2:")
+print("Sum is: " + num1+num2)
