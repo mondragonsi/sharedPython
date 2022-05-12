@@ -1,5 +1,6 @@
 print("hello world")
 
-num1 = input("Enter num1:")
-num2 = input("Enter num2:")
-print("Sum is: " + num1+num2)
+num1 = int(input("Enter num1:"))
+num2 = int(input("Enter num2:"))
+res = num1 + num2
+print("The result is:{}".format(res))
